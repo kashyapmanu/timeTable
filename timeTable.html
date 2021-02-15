@@ -1,0 +1,34 @@
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=5,IE=9" ><![endif]-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Untitled Diagram</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    
+    <center>
+        <!-- Display todays time and date -->
+        <p id="time"></p>
+        <p id="date"></p>
+
+        <div class="mxgraph" style="max-width:100%;border:1px solid transparent;"
+        data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2021-02-15T01:34:01.175Z\&quot; agent=\&quot;5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36\&quot; etag=\&quot;X-SrbQx4sAwdGDXo5Ihx\&quot; version=\&quot;14.3.1\&quot; type=\&quot;google\&quot;&gt;&lt;diagram id=\&quot;UUGtCUoIm7vMpipzCxsI\&quot; name=\&quot;Page-1\&quot;&gt;7ZzbUqtIFIafJpdWdTeHwGUHUdCEWEDGmaspEjoJNSRYiBOdp5/uBHKg2XvQIbHDJpYlLA7C97MW/2rQnmSs3u/T4GU5SkIS9xAI33vSbQ8hKCOV/mCRj11EKwKLNArzlQ4BL/qH5EGQR9+ikLyerJglSZxFL6fBWbJek1l2EgvSNNmcrjZP4tPf+hIsCBfwZkHMR5+jMFsWZ9E/xC0SLZbFb4aqvluyCoqV8zN5XQZhsjkKSWZPMtIkyXZTq3eDxAxewWW33d0Plu4PLCXrrM4G6wfj4+4hiLBjRHr/Dd1Y6M+bfC9/B/FbfsJA6klYprsCN/QbyHROKs4g+yiwpMnbOiRsz6AnDTbLKCPeSzBjSzf0QqCxZbaK6Rykk/Mojo0kTtLtttIUhuGcbfaapclf5GgJBH1Jp/sY5EdF0oy8//B04R4ivfpIsiJZ+kFXKTYAcn7Y+ZWnFPObg46wOLXlkYZqHgvyS2ex3/eBLp3IAX8CNuJh0xPAyh52gf7qYOtINNYSzxoy1krBuiB/daw1WIM1uiRrmWMNGV2wZ83Ig2tkraiiXdcKz5rRhUUN2ZO/OtaycPVa5WuIflxDKPQrrSGSJFoN6VezBvt7Y0H+6lgj4eq1xrG+xX/QPfn2yLxCwLpofCHvqj3sT9wt5WvHC6FSky+EZwPMO+k7124HXlD38j0jXt48+9bE9VoBWJe+ny9vmJ/NW8dsB2ANfT9g3iX7k5bg7cPvx8sb49HYaQVdFXw7XVQxJgdPrDC8ViusCmfVEO8kTOfedkzTtZ17umCEHXxvjkzH7yE1poczmKZ0apFtiZQjQwuw3vu/V7x16b5dPMKPru1ZDqZzg0YFnc/naDarEjRUp6qinqe3ESB9NMAp6o3v/Gfs0t4GYNewbN80qBs3GxV0xAT18OgJ+xaderQdu1E9w4Bo80o91ZlGpvPzjAuIoCdfDq0JzUqWP6Y3nriGuUtT8zNpCoFWZ8Xfd59mlVSIFspVSmpoKqkNZaasiKckX2tvmq15CvuqzJHth22RrLOj+O7T0FhxXzzifCP35I4faPmjwScLeyx1UJ1EMLwhG9UA7HgQYHOoUekIpGnRr5JOV/tS0FBSlB+dVEkkqZeViO8Fx0+mi3177ODhrsiZ7K5Vq64ZQK51s/KY/ng4xL/RuxRwqrZpMi+1Gan2IlNNYYXqLPcuARolje9DO3f5dXcpgqJ869u5kc+7ERGU5J84tdmNiEBc79zIz9xIlUQXdiPF+EznRpq+dwkwKq5XPJbsRka+6C5F0LPd/XTZM4hAnO+n20S87BlEIM63x10H9XWLUaUoki+rKN8TtymHIBCwbPEvfLUJedlqCfCGh863Op2PbsR3CSAuLEaNu0Gg/2XohJCy64ma84tCCNrupqhs6KqQX3jMCILuKeNP/UjlK70XF4lvpNqUF+VSJMRr1IBvdX7pxCgXLzESg3+i90uLxFWvqr/3kLULi9Tuh3VcYlQxv3hi8KMGw4nDWlYwcE382Cj/GoZ1kQZhRE406JNAJQ01muV3k2u/vqV+4eVkOnv4xw/bZUf/PkMy/wU=&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}">
+    </div>
+    </center>
+
+    <!-- Script for displaying date -->
+    <script type="text/javascript">
+        n = new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("date").innerHTML = "Date and Time : " + n;
+        document.getElementById("time").innerHTML = "Time :" + n.toLocalTimeString();
+    </script>
+    <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+</body>
+
+</html>
